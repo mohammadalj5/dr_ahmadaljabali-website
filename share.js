@@ -1,0 +1,2 @@
+const shareButton=document.querySelector('#shareSite');
+if(shareButton){shareButton.addEventListener('click',async()=>{const shareData={title:'د. أحمد الجبالي | الملف الأكاديمي',text:'الملف الأكاديمي للدكتور أحمد الجبالي',url:location.href};try{if(navigator.share){await navigator.share(shareData)}else{await navigator.clipboard.writeText(location.href);const original=shareButton.textContent;shareButton.textContent='تم نسخ الرابط ✓';setTimeout(()=>shareButton.textContent=original,2200)}}catch(error){if(error.name!=='AbortError')console.error(error)}})}

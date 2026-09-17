@@ -1,0 +1,1 @@
+const list=document.querySelector('#publicationList');list.innerHTML=window.publications.map(p=>`<a class="publication" href="publication.html?id=${p.id}"><small>${p.year}</small><h3>${p.title}</h3><p>${p.venue}</p><span>عرض البحث <b>↗</b></span></a>`).join('');document.querySelector('#year').textContent=new Date().getFullYear();
