@@ -103,7 +103,7 @@ const copy = {
 
     eyebrow: 'Academic Profile',
     name: 'Dr. Ahmad Mohammad AlJabali',
-    role: 'Assistant Professor of Financial and Banking Sciences / Financial Technology',
+    role: 'Assistant Professor of  Financial Technology',
     intro: 'A researcher and academic who combines financial knowledge with digital innovation to build a more efficient and sustainable banking sector.',
     discover: 'Explore the Academic Profile',
     email: 'Get in touch',
