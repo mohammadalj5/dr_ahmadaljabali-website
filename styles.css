@@ -13,9 +13,10 @@
 }
 
 .profile-links a img {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-  flex-shrink: 0;
+  width: 24px !important;
+  height: 24px !important;
+  object-fit: contain !important;
+  display: inline-block;
+  vertical-align: middle;
+  margin-inline-end: 6px;
 }
-.share-site{align-self:flex-start;margin-top:8px;padding:10px 14px;border:1px solid #8bb49a;background:transparent;color:white;border-radius:3px;font:600 12px "Noto Kufi Arabic";cursor:pointer}.share-site:hover{background:#ffffff12}
