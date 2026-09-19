@@ -6,5 +6,16 @@
 .active{color:var(--green);border-bottom:2px solid var(--green);padding-bottom:5px}.contact-page-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px}.contact-card{background:var(--mint);padding:38px}.contact-card h2{font-size:26px;margin:0 0 27px}.contact-card a{display:block;color:var(--green-dark);font:500 15px/1.7 "DM Sans";text-decoration:none;padding:13px 0;border-top:1px solid #c8ddcd}.contact-card a small{display:block;color:var(--muted);font:11px "Noto Kufi Arabic"}.contact-card .address{font-size:12px;line-height:2;color:var(--muted);margin:20px 0 0}.map-card{background:#0d193a;padding:14px}.map-card iframe{display:block;width:100%;height:390px;border:0;filter:saturate(.9)}.map-card>a{display:inline-block;margin-top:14px;color:white;font-size:12px;text-decoration:none}.gallery-grid{display:grid;grid-template-columns:minmax(0,700px);justify-content:center}.gallery-grid figure{margin:0;background:var(--mint)}.gallery-grid img{display:block;width:100%;max-height:720px;object-fit:cover;object-position:center 20%}.gallery-grid figcaption{padding:15px;font-size:12px;color:var(--muted)}@media(max-width:760px){.contact-page-grid{grid-template-columns:1fr}.map-card iframe{height:300px}}
 .gallery-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;justify-content:stretch}.gallery-grid figure{box-shadow:0 8px 22px #153b2417;overflow:hidden}.gallery-grid img{height:250px;object-fit:cover;transition:transform .25s}.gallery-grid figure:hover img{transform:scale(1.035)}@media(max-width:850px){.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.gallery-grid{grid-template-columns:1fr}.gallery-grid img{height:auto;max-height:none}}
 /* Keep every destination available from the top navigation on smaller screens. */
-@media(max-width:760px){.nav-wrap{flex-wrap:wrap;gap:10px;padding:10px 0}.nav-wrap nav{display:flex;order:3;width:100%;overflow-x:auto;gap:16px;padding:8px 0 4px;margin:0;white-space:nowrap}.nav-wrap nav a{font-size:11px;flex:0 0 auto}.language-toggle{margin-inline-start:auto}.nav-wrap .brand{max-width:calc(100% - 54px)}}
+@media(max-width:760px){.nav-wrap{flex-wrap:wrap;gap:10px;padding:10px 0}.nav-wrap nav{display:flex;order:3;width:100%;overflow-x:auto;gap:16px;padding:8px 0 4px;margin:0;white-space:nowrap}.nav-wrap nav a{font-size:11px;flex:0 0 auto}.language-toggle{margin-inline-start:auto}.nav-wrap .brand{max-width:calc(100% - 54px)}} .profile-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-links a img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
 .share-site{align-self:flex-start;margin-top:8px;padding:10px 14px;border:1px solid #8bb49a;background:transparent;color:white;border-radius:3px;font:600 12px "Noto Kufi Arabic";cursor:pointer}.share-site:hover{background:#ffffff12}
